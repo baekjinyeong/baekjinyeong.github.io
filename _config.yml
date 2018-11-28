@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "jinyeong blog"
+title                    : "blog"
 title_separator          : "-"
-name                     : "baek jinyeong"
+name                     : "baek Jinyeong"
 description              : "Learn, make notes and share"
 url                      : "https://jinyeong-i.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -104,8 +104,8 @@ analytics:
 # Site Author
 author:
   name             : "baek jinyeong"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Learn, make notes and share"
   location         : "Seoul, Korea"
   email            :
   links:
