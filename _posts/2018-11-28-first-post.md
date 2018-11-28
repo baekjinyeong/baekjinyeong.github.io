@@ -1,22 +1,38 @@
 ---
-title: "Welcome to Jekyll!"
-date: 2018-11-28 15:17:28 -0400
-categories: jekyll update
+tags: # 태그 사용
+    - tag1
+    - tag2
+
+categories: #카테고리
+  - category a
+
+author_profile: true / false #작성자 프로필 출력여부
+read_time: false # read_time을 출력할지 여부 1min read 같은것!
+
+toc: true #Table Of Contents 목차 보여줌
+toc_label: "My Table of Contents" # toc 이름 정의
+toc_icon: "cog" #font Awesome아이콘으로 toc 아이콘 설정
+toc_sticky: true # 스크롤 내릴때 같이 내려가는 목차
+
+gallery: #이미지 갤러리
+  - url: /assets/images/unsplash-gallery-image-1.jpg
+    image_path: /assets/images/unsplash-gallery-image-1-th.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/images/unsplash-gallery-image-2.jpg
+    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+#다음과 같이 본문에서 사용한다.
+{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+
+header:  # 헤더에 유튜브 비디오 삽입
+  video:
+    id: XsxDH4HcOWA
+    provider: youtube
+
+
+link: https://github.com # Direct Link 만들기
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-​```python
-def print_hi(name):
-  print("hello", name)
-print_hi('Tom')
-​```
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Hello!
