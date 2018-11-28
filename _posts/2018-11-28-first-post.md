@@ -1,4 +1,6 @@
 ---
+title: "minimal mistakes 테마를 이용해 github.io 블로그 구축하기"
+date: 2018-11-28 16:29:28 -0400
 tags: # 태그 사용
     - tag1
     - tag2
