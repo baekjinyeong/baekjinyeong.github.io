@@ -104,7 +104,7 @@ analytics:
 # Site Author
 author:
   name             : "Jinyeong B"
-  avatar           : "/assets/images/michael-rose.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Learn, make notes and share"
   location         : "Seoul, Korea"
   email            :
