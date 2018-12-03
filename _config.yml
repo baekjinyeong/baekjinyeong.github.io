@@ -105,7 +105,7 @@ analytics:
 author:
   name             : "Jinyeong B"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Learn, make notes and share"
+  bio              : "Learn and write notes"
   location         : "Seoul, Korea"
   email: "jinyeong1612@gmail.com"
   links:
